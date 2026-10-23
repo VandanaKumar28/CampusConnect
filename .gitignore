@@ -1,0 +1,25 @@
+
+# Java / Spring Boot
+backend/target/
+*.class
+*.log
+
+# React / Node.js
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+**/application-local.properties
+**/application-local.yml
+
+# IDE files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
