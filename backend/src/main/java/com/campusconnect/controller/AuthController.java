@@ -32,7 +32,7 @@ public class AuthController {
                 .fullName(request.fullName())
                 .email(request.email())
                 .password(passwordEncoder.encode(request.password()))
-                .role(request.role() != null ? request.role() : Role.STUDENT)
+                .role(Role.STUDENT)
                 .build();
 
         userRepository.save(user);
