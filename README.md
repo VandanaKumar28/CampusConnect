@@ -35,17 +35,17 @@ The project is built with \*\*Spring Boot, Spring Security, JWT, React, and MySQ
 
 | Sign in | Resources |
 | :---: | :---: |
-| <img src="screenshots/01-sign-in.png" alt="CampusConnect sign-in page" width="100%"> | <img src="screenshots/02-resources.png" alt="Resources list with capacity and approval requirement" width="100%"> |
+| <img src="01-sign-in.png" alt="CampusConnect sign-in page" width="100%"> | <img src="02-resources.png" alt="Resources list with capacity and approval requirement" width="100%"> |
 | Secure sign-in for students, faculty and administrators. | Browse labs and rooms with capacity and whether approval is required. |
 
 | Request a booking | My bookings |
 | :---: | :---: |
-| <img src="screenshots/03-request-booking.png" alt="Booking request form" width="100%"> | <img src="screenshots/04-my-bookings.png" alt="My bookings with status and cancel button" width="100%"> |
+| <img src="03-request-booking.png" alt="Booking request form" width="100%"> | <img src="04-my-bookings.png" alt="My bookings with status and cancel button" width="100%"> |
 | Choose a start and end time. Overlapping slots are rejected with a 409 Conflict. | Track every request and its status, and cancel a pending one. |
 
 | Approval queue (admin) | Analytics (admin) |
 | :---: | :---: |
-| <img src="screenshots/05-approval-queue.png" alt="Admin approval queue" width="100%"> | <img src="screenshots/06-analytics.png" alt="Booking utilization chart" width="100%"> |
+| <img src="05-approval-queue.png" alt="Admin approval queue" width="100%"> | <img src="06-analytics.png" alt="Booking utilization chart" width="100%"> |
 | Admins review pending requests and approve or reject them. | Approved bookings per resource, charted with Recharts. |
 
 
